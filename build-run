@@ -1,0 +1,2 @@
+clang -o testperson TestPerson.m Person.m -framework Foundation
+./testperson
