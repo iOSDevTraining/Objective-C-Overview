@@ -1,2 +1,3 @@
-clang -o testperson TestPerson.m Person.m -framework Foundation
-./testperson
+mkdir -p build
+clang -o build/testperson TestPerson.m Person.m -framework Foundation
+./build/testperson
